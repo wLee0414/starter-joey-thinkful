@@ -1,8 +1,25 @@
 header {
-    font-size: 52px;
     background-color: darkblue;
+    color: white;
+}
+
+header h1{
+    font-size: 52px;
+    text-align: center;
 }
 
 header nav {
     font: Montserrat;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media all and (min-width: 600px) {
+header h1 {
+    font-size: 48px;
+}
 }
